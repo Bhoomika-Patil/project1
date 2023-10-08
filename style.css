@@ -1,0 +1,395 @@
+.free {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(94, 94, 74);
+}
+.free p{
+    padding: 20px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+font-size: 20px;
+margin: 0%;
+text-align: center;
+padding-top:  6px; 
+letter-spacing: 1.7px;
+}
+.left{
+     display: inline-block;
+     /* border:2px solid black; */
+     height: 50px;
+     width: 37%;
+     margin-top: 35px;
+     margin-left: 20px;
+
+}
+.left li{
+    cursor: pointer;
+    display: inline;
+    margin: 0%;
+    padding: 15px;
+    font-size: larger;
+}
+.left li:hover{
+    color: blueviolet;
+}
+.mid{
+    display: inline-block;
+    border:2px solid black;
+    height: 50px;
+    width: 10%;
+    margin-top: 35px;
+    margin-left: 100px ;
+}
+.mid h2{
+    text-align: center;
+    margin:0%;
+    padding : 10px;
+    font-weight: bold;
+}
+.right{
+    display: inline-block;
+    /* border:2px solid yellow;  */
+    margin-top: 35px;
+    margin-right: 10px;
+    height:50px;
+    position: absolute;
+    right: 20px;
+    width: 24%;
+}
+.social{
+   height: 195px;
+   width: 65px;
+    position: fixed;
+    left: 50px;
+    top:50%;
+    z-index: 100;
+    /* border: 2px solid black; */
+}
+.social #f{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+.social #f:hover{
+   background-color: #99D9EA;   
+}
+.social #i{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+.social #i:hover{
+    background-color: #99D9EA;   
+}
+.social #p{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+.social #p:hover{
+    background-color: #99D9EA;   
+}
+form{
+    margin: -13px;
+    padding: 4px;
+    margin-left: 5px;
+}
+.right button{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 7px;
+   
+}
+.right #user{
+   padding: auto;
+   margin-right: 18 px;
+    position: relative;
+    top: 11px;
+}
+
+.right input{
+    height: 30px;
+    padding: 0px;
+    margin: 6px;
+}
+.product1{
+    width: 200px;
+    position: absolute;
+    top: 200px;
+}
+.product1 img{
+    width: 1016px;
+    height: 700px;
+    object-fit: cover;
+ z-index: inherit;
+    margin-left:44px;
+}
+.inner{
+position: absolute;
+top: 408px;
+left: 651px;
+/* border: 2px solid red; */
+width: 700px;
+height: 300px;
+}
+.inner p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 5px;
+}
+.inner h5{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:lighter;
+    letter-spacing: 5px;
+    font-size: 65px;
+    margin: 0%;
+}
+.inner button{
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+background-color: rgb(94, 94, 74);
+color: white;
+}
+.inner button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#fav{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 47px;
+    margin-top: 900px;
+    margin-left: 500px;
+    font-weight:100;
+
+}
+.product2 img{
+    width: 570px;
+    height: 687px;
+    margin-top: 30px;
+float: right;
+margin-right: 235px;
+}
+.product2 h6{
+    font-weight:lighter;
+    font-size: 50px;
+    margin: 0%;
+    width: 900px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 310px;
+
+}
+.product2 #p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+    margin: 45px;
+    width: 453px;
+    margin-top: 80px;   ;
+    margin-left: 200px;
+}
+.product2 button{
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 200px;
+}
+.product2 button:hover{
+    background-color: rgb(94, 94, 74);
+    color: white;   
+}
+.side{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(215, 215, 203);
+    /* border: 2px solid black; */
+    height: 1050px;
+    width: 1508px;
+    position: absolute;
+    top: 2150px;
+}
+ #abc{
+    font-weight: lighter;
+    font-size: 50px;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    margin-left: 570px;
+ }
+#one{
+    width: 269px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left:280px;
+}
+#one h6{
+    cursor: pointer;
+    font-weight:medium;
+    font-size: 22px;
+    margin-top: 34px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+#one h6:hover{
+    color: blueviolet;   
+}
+#one p{
+    font-weight:lighter;
+    font-size: 15px;
+    margin-top: -34px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+#two{
+    width: 269px;
+    height:500px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 630px;
+}
+#two h6{
+    cursor: pointer;
+    font-weight:medium;
+    font-size: 22px;
+    margin-top: 34px;
+}
+#two h6:hover{
+    color: blueviolet;   
+}
+#two p{
+    font-weight:lighter;
+    font-size: 15px;
+    margin-top: -34px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+#three{
+    cursor: pointer;
+    width: 269px;
+    height:500px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left :1000px;
+}
+#three h6{
+    font-weight:medium;
+    font-size: 22px;
+    margin-top: 34px;
+}
+#three h6:hover{
+    color: blueviolet;   
+}
+#three p{
+    font-weight:lighter;
+    font-size: 15px;
+    margin-top: -34px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+
+.last{
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* border: 2px solid black; */
+     position: absolute;
+    top: 3300px;
+    height: 500px;
+    width: 1508px;
+}
+
+.last>h2{
+    text-align: center;
+    margin:0%;
+    padding : 10px;
+    font-weight: lighter;
+    font-size: 30px;
+    border:3px solid black;
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.last .shop{
+    display: inline-block;
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+.last .frais{
+    display: inline-block;
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    margin-left: 350px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+ .last #sh{
+    display: inline-block; 
+    /* border :2px solid black;  */
+    margin-left: 600px;
+    margin-top: -65px;
+    font-size: 20px; 
+    padding: 20px;
+    font-weight: 150;
+}  
+
+ .last #fr{
+    display: inline-block;
+    font-weight: lighter;
+     /* border: 2px solid black; */
+     margin-left: 284px;
+     margin-top: -40px;
+     font-size: 20px;
+}
+.last .help{
+    display:inline-block;
+    font-weight: lighter; 
+   /* border: 2px solid black;  */
+     margin-left: 600px;
+    margin-top: 37px;
+     font-size: 30px;
+}
+
+
+.last .contact{
+    display: inline-block;
+    font-weight:lighter;
+     /* border: 2px solid black;  */
+     margin-left: 350px;
+     margin-top: 20px;
+    font-size: 30px;
+}
+.last #he{
+    display: inline-block; 
+    /* border :2px solid black;  */
+    margin-left: 600px;
+    margin-top: -65px;
+    font-size: 20px; 
+    padding: 20px;
+    font-weight: 150;
+}
+.last #co{
+    display: inline-block; 
+    /* border :2px solid black;  */
+    margin-left: 165px;
+    margin-top: -65px;
+    font-size: 20px; 
+    padding: 20px;
+    font-weight: 150;
+}  
